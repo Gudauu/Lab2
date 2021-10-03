@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meeting Minutes</title>
+    <link rel="icon" href="/favicon.ico">
+</head>
+<body>
+    <header>
+        <div>Overview</div>
+        <nav>
+          <ul>
+            <li>Date&Time</li>
+            <li>Location</li>
+            <li>Attendance list</li>
+            <li>Agenda</li>
+          </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            Witness the very first meeting of super Verylag!
+        </section>
+        <hr>
+        <p>Let's see...</p>
+        <h1>Date&Time</h1>
+            <h2 id="Date">Date</h2>
+                <span><i>2021-10-03</i></span>
+            <h2 id="Time">Time</h2>
+                <span><em>21:00</em></span>
+        <h1 id="Location">Location</h1>
+                <strong>
+                    Here we are again enjoying the autumn night breeze on the picturesque UCSD campus.
+                </strong>
+                <img 
+                src="https://i.redd.it/afrubqrj1rm71.jpg"
+                alt="Geisel library"
+                width="250"
+                />
+                <details>
+                    <summary>A introduction to the place we met:Geisel.</summary>
+                    To be more specific,we were in the <b>Geisel Library</b>.
+                    <a href="https://library.ucsd.edu/about/geisel-building.html"></a>
+                </details> 
+        <h1>Attendance list</h1>
+            <ol>
+                <li><input type="checkbox" />SHUTONG WU</li>
+                <li><input type="checkbox" />Apple Browns</li>
+                <li><input type="checkbox" />Harry Potter</li>
+                <li><input type="checkbox" />Ron Weasley</li>
+            </ol>
+        <h1 id="Agenda">Agenda</h1>
+            <p>We talked about how to save the world.</p>
+            <h3>Conclusion</h3>
+            <p>We decided on using magic.</p>
+            <span>Here's a clip of what we gonna do.</span>
+            <video controls src="https://youtu.be/AVG1PRhfNic"></video>
+            <audio src="https://lnk.to/0nKqXz"></audio>
+        <!--img
+          src="https://images.unsplash.com/photo-1575853121743-60c24f0a7502?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8cGFuY2FrZXxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60"
+          alt="pancake"
+          width="250"
+        /-->
+    </main>
+    <footer>
+        <h6 id="subscribe">Subscribe</h6>
+        <form onsubmit="alert('Subscribed')">
+            <fieldset>
+                <input type="text" placeholder="Enter Email Address" />
+                <input type="checkbox" name="You are student?" />
+                <input type="radio" name="You work?">
+                <input type="date" name="Birthday">
+                <button>Submit</button>
+            </fieldset>
+          
+        </form>
+        <br />
+        <datalist id="Where_are_you_from?">
+            <option value="Mars">
+            <option value="Moon">
+            <option value="Earth">
+            <option value="Others">
+        </datalist>
+        <select name="Favourite site of meeting" id='site-picking'>
+            <option value="library">library</option>
+            <option value="price center">price center</option>
+            <option value="grass">grass</option>
+        </select>
+        <label for="story">Anything you wanna tell us?</label>
+        <textarea id="story" name="story" rows="5" cols="33">
+            You made a bug in this web...
+        </textarea>
+        <div>&copy; Picture from Reddit.</div>
+    </footer>
+
+</body>
+</html>
